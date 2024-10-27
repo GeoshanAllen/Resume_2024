@@ -16,12 +16,8 @@ export default function NavbarResume() {
             <Col className="ms-auto" lg="1">
             
             <Navbar.Brand href="#home">
-            <img
-        className="logo"
-        src="favicon.ico"
-        alt="allenResume"
-      />
-              ALLEN
+
+             M ALLEN GEOSHAN
               </Navbar.Brand>
             </Col>
             <Col ms-auto lg="4" ></Col>
