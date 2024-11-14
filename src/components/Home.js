@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles.css";
 import Nav from 'react-bootstrap/Nav';
+// import Allen_Resume_Black.png from 'Allen_Resume_Black.png';
 
-export default function Header() {
+export default function Home() {
   return (
     <div className="header mt-1">    
       <img
         className="logo"
-        src="Allen_Resume_Black.png"
+        src="../Allen_Resume_Black.png"
         alt="allenResume"
       />
       <h1 className="app-subtitle">M ALLEN GEOSHAN</h1>
