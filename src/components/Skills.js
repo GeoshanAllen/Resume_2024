@@ -18,7 +18,7 @@ export default function Skills() {
                   <Card.Subtitle className="mb-2 text-muted">                    
                     <img
                       class="skillsLogo"
-                      src="./Resume_2024/JavaLogo.png"
+                      src="../Resume_2024/JavaLogo.png"
                       alt="Java"
                       title="Java"
                     />&nbsp;
@@ -35,7 +35,7 @@ export default function Skills() {
                   <Card.Subtitle className="mb-2 text-muted">                    
                     <img
                     class="skillsLogo"
-                    src="./Resume_2024/ReactLogo.png"
+                    src="../Resume_2024/ReactLogo.png"
                     alt="React"
                     title="React"
                     />&nbsp;
@@ -58,7 +58,7 @@ export default function Skills() {
                   <Card.Subtitle className="mb-2 text-muted">                    
                     <img
                       class="skillsLogo"
-                      src="./Resume_2024/JavaLogo.png"
+                      src="../Resume_2024/JavaLogo.png"
                       alt="Java"
                       title="Java"
                     />&nbsp;
@@ -75,7 +75,7 @@ export default function Skills() {
                   <Card.Subtitle className="mb-2 text-muted">                    
                     <img
                     class="skillsLogo"
-                    src="./Resume_2024/ReactLogo.png"
+                    src="../Resume_2024/ReactLogo.png"
                     alt="React"
                     title="React"
                     />&nbsp;
@@ -93,7 +93,7 @@ export default function Skills() {
           <div>
             <img
               class="skillsLogo"
-              src="./Resume_2024/ReactLogo.png"
+              src="../Resume_2024/ReactLogo.png"
               alt="React"
               title="React"
             />{" "}
@@ -102,7 +102,7 @@ export default function Skills() {
           <div>
             <img
               class="skillsLogo"
-              src="./Resume_2024/JavaLogo.png"
+              src="../Resume_2024/JavaLogo.png"
               alt="Java"
               title="Java"
             />{" "}
@@ -111,7 +111,7 @@ export default function Skills() {
           <div>
             <img
               class="skillsLogo"
-              src="./Resume_2024/CucumberLogo.png"
+              src="../Resume_2024/CucumberLogo.png"
               alt="Cucumber"
               title="Cucumber"
             />{" "}
