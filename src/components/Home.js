@@ -8,7 +8,7 @@ export default function Home() {
     <div className="header mt-1">    
       <img
         className="logo"
-        src="./Resume_2024/Allen_Resume_Black.png"
+        src="../Resume_2024/Allen_Resume_Black.png"
         alt="allenResume"
       />
       <h1 className="app-subtitle">M ALLEN GEOSHAN</h1>
