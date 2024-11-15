@@ -25,8 +25,8 @@ export default function NavbarResume() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link href="/#/Home">Home</Nav.Link>
-                  <Nav.Link href="/#/Skills">Skills</Nav.Link>
+                  <Nav.Link href="/Resume_2024/#/Home">Home</Nav.Link>
+                  <Nav.Link href="/Resume_2024/#/Skills">Skills</Nav.Link>
                   <Nav.Link href="/Experience">Experience</Nav.Link>
                   <Nav.Link href="/Education">Education</Nav.Link>
                   <Nav.Link href="/Accolades">Accolades</Nav.Link>
