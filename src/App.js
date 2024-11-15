@@ -15,8 +15,8 @@ function App() {
       <NavbarResume></NavbarResume>
       {/* <Router> */}
         <Routes>
-          <Route path ="/Resume_2024/Skills/" element ={<Skills></Skills>} ></Route>
-          <Route path ="/Resume_2024/Home/" element ={<Home></Home>} ></Route>
+          <Route path ="/Skills" element ={<Skills></Skills>} ></Route>
+          <Route path ="/Home" element ={<Home></Home>} ></Route>
         </Routes>
       {/* </Router> */}
       

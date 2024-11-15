@@ -15,7 +15,7 @@ export default function NavbarResume() {
           <Navbar expand="lg" className="bg-body-tertiary">
             <Col className="ms-auto" lg="1">
             
-            <Navbar.Brand href="/Resume_2024/Home/">
+            <Navbar.Brand href="/Home">
              M ALLEN GEOSHAN
               </Navbar.Brand>
             </Col>
@@ -25,13 +25,13 @@ export default function NavbarResume() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link href="/Resume_2024/Home/">Home</Nav.Link>
-                  <Nav.Link href="/Resume_2024/Skills/">Skills</Nav.Link>
-                  <Nav.Link href="/Resume_2024/Experience/">Experience</Nav.Link>
-                  <Nav.Link href="/Resume_2024/Education/">Education</Nav.Link>
-                  <Nav.Link href="/Resume_2024/Accolades/">Accolades</Nav.Link>
-                  <Nav.Link href="/Resume_2024/Trainings/">Trainings</Nav.Link>
-                  <Nav.Link href="/Resume_2024/AboutMe/">About Me</Nav.Link>
+                  <Nav.Link href="/#/Home">Home</Nav.Link>
+                  <Nav.Link href="/#/Skills">Skills</Nav.Link>
+                  <Nav.Link href="/Experience">Experience</Nav.Link>
+                  <Nav.Link href="/Education">Education</Nav.Link>
+                  <Nav.Link href="/Accolades">Accolades</Nav.Link>
+                  <Nav.Link href="/Trainings">Trainings</Nav.Link>
+                  <Nav.Link href="/AboutMe">About Me</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Col>
