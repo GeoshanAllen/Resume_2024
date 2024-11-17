@@ -8,27 +8,27 @@ export default function Skills() {
     <div>
       <div className="skills">
         <h4>Skills</h4>
-        <Container>
+        <Container fluid>
           <Row>
-            <Col></Col>
-            <Col class="skillsContainer text-center" xs={4}>
-            <center>
-              <Card style={{ height: "3rem", width: "20rem" }}>
-                <Card.Body>
-                  <Card.Subtitle className="mb-2 text-muted">                    
-                    <img
-                      class="skillsLogo"
-                      src="../Resume_2024/JavaLogo.png"
-                      alt="Java"
-                      title="Java"
-                    />&nbsp;
-                    Java | v17.0.13
-                  </Card.Subtitle>
-                </Card.Body>
-              </Card>
+            {/* <Col></Col> */}
+            <Col class="skillsContainer text-center" xs={12}>
+              <center>
+                <Card style={{ height: "3rem", width: "15rem" }}>
+                  <Card.Body>
+                    <Card.Subtitle className="mb-2 text-muted">
+                      <img
+                        class="skillsLogo"
+                        src="../Resume_2024/JavaLogo.png"
+                        alt="Java"
+                        title="Java"
+                      />
+                      &nbsp; Java | v17.0.13
+                    </Card.Subtitle>
+                  </Card.Body>
+                </Card>
               </center>
             </Col>
-            <Col class="skillsContainer text-center" xs={4}>
+            {/* <Col class="skillsContainer text-center" xs={4}>
             <center>
               <Card style={{ height: "3rem", width: "20rem" }}>
                 <Card.Body>
@@ -44,49 +44,69 @@ export default function Skills() {
                 </Card.Body>
               </Card>
               </center>
-            </Col>
+            </Col> */}
 
-           <Col></Col>
+            {/* <Col></Col> */}
           </Row>
           <br></br>
           <Row>
-            <Col></Col>
-            <Col class="skillsContainer text-center" xs={4}>
             <center>
-              <Card style={{ height: "3rem", width: "20rem" }}>
-                <Card.Body>
-                  <Card.Subtitle className="mb-2 text-muted">                    
-                    <img
-                      class="skillsLogo"
-                      src="../Resume_2024/JavaLogo.png"
-                      alt="Java"
-                      title="Java"
-                    />&nbsp;
-                    Java | v17.0.13
-                  </Card.Subtitle>
-                </Card.Body>
-              </Card>
-              </center>
-            </Col>
-            <Col class="skillsContainer text-center" xs={4}>
+              <Col class="skillsContainer text-center" xs={12}>
+                <Card style={{ height: "3rem", width: "15rem" }}>
+                  <Card.Body>
+                    <Card.Subtitle className="mb-2 text-muted">
+                      <img
+                        class="skillsLogo"
+                        src="../Resume_2024/ReactLogo.png"
+                        alt="React"
+                        title="React"
+                      />
+                      &nbsp; React | v18.2.0
+                    </Card.Subtitle>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </center>
+          </Row>
+          <br></br>
+          <Row>
             <center>
-              <Card style={{ height: "3rem", width: "20rem" }}>
-                <Card.Body>
-                  <Card.Subtitle className="mb-2 text-muted">                    
-                    <img
-                    class="skillsLogo"
-                    src="../Resume_2024/ReactLogo.png"
-                    alt="React"
-                    title="React"
-                    />&nbsp;
-                    React | v18.2.0
-                  </Card.Subtitle>
-                </Card.Body>
-              </Card>
-              </center>
-            </Col>
-
-           <Col></Col>
+              <Col class="skillsContainer text-center" md={12} xs={12}>
+                <Card style={{ height: "3rem", width: "15rem" }}>
+                  <Card.Body>
+                    <Card.Subtitle className="mb-2 text-muted">
+                      <img
+                        class="skillsLogo"
+                        src="../Resume_2024/CucumberLogo.png"
+                        alt="Cucumber"
+                        title="Cucumber"
+                      />
+                      &nbsp; Cucumber | v7.20.1
+                    </Card.Subtitle>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </center>
+          </Row>
+          <br></br>
+          <Row>
+            <center>
+              <Col class="skillsContainer text-center" md={12} xs={12}>
+                <Card style={{ height: "3rem", width: "15rem" }}>
+                  <Card.Body>
+                    <Card.Subtitle className="mb-2 text-muted">
+                      <img
+                        class="skillsLogo"
+                        src="../Resume_2024/JavascriptLogo.png"
+                        alt="Javascript"
+                        title="Javascript"
+                      />
+                      &nbsp; Javascript | ES6
+                    </Card.Subtitle>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </center>
           </Row>
         </Container>
         <div className="skillsGrid">

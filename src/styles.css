@@ -1,4 +1,4 @@
-/* General Reset */
+General Reset
 *{
 margin: 0;
 padding: 0;
@@ -14,16 +14,12 @@ body{
 
 
 
-
-
 .container{
-
     margin: 0 auto;
 }
 
 /* Header Styles */
-.para{
-    
+.para{    
     font-family: "Open Sans", sans-serif;
 }
 
@@ -39,10 +35,19 @@ body{
 /* Footer Styles */
 .footer {
     font-family: "Open Sans", sans-serif;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     background-color: #2c2c2c;
-    padding: 1rem;
+    position: sticky !important;
+    position: absolute !important;
     text-align: center;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0;
+    height: 30px !important;
+    width: 100% !important;
+    position: -webkit-sticky !important;
+    overflow: visible;
+   
 }
 
 .footer-text {
