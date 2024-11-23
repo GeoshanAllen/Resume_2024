@@ -5,7 +5,7 @@ export default function Footer(){
 
     const currentYear =new Date().getFullYear();
     return (
-        <footer className='footer'>
+        <footer className='footer bg-dark'>
             <p className='footer-text'>
             © {currentYear}&nbsp;
              GeoshanAllen. All rights reserved.

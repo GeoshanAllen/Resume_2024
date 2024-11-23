@@ -12,7 +12,7 @@ export default function NavbarResume() {
     <div className="NavbarResume">
       <Container fluid="md">
         <Row md>
-          <Navbar expand="lg" sticky="top" className="bg-body-tertiary ">
+          <Navbar expand="lg" sticky="top" className="bg-body-tertiary  " collapseOnSelect>
             <Col className="ms-auto" lg="1">
               <Navbar.Brand href="/Home">
                 <img
@@ -27,15 +27,15 @@ export default function NavbarResume() {
             <Col ms-auto lg="4"></Col>
             <Col ms-auto lg="7">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ms-auto">
+              <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
+                <Nav className="ms-auto" >
                   <Nav.Link href="/Resume_2024/#/Home">
                     <span class="material-symbols-outlined mat-icon-center">
                       home
                     </span>
                     <span class="nav-custom-postion">Home</span>
                   </Nav.Link>
-                  <Nav.Link href="/Resume_2024/#/Skills">
+                  <Nav.Link href="/Resume_2024/#/Skills" >
                     <span class="material-symbols-outlined mat-icon-center">
                       star_rate
                     </span>

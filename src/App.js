@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import NavbarResume from "./components/Navbar";
 import Skills from "./components/Skills";
+import AboutMe from "./components/AboutMe";
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -17,11 +18,12 @@ function App() {
         <Routes>
           <Route path ="/Skills" element ={<Skills></Skills>} ></Route>
           <Route path ="/Home" element ={<Home></Home>} ></Route>
+          <Route path ="/AboutMe" element ={<AboutMe></AboutMe>} ></Route>
         </Routes>
       {/* </Router> */}
       
       
-      <Footer></Footer>
+      <Footer ></Footer>
       {/* </div> */}
     </div>
   );
