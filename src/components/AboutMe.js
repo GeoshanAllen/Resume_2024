@@ -19,17 +19,27 @@ export default function AboutMe() {
             &nbsp;About Me
           </h4>
         </Container>
-        <br></br>
+        
         <Container fluid>
-          <Row
-            onClick={() => 
-              window.location = 'mailto:geoshanallen@gmail.com'}
+          <div className="header ">
+      <img
+        className="logo-AboutMe"
+        src="../Resume_2024/Allen_Resume_Black.png"
+        alt="allenResume"
+      />
+      <h4 className="app-subtitle">
+        M ALLEN GEOSHAN
+      </h4>
+      </div>
+          <Row className="mt-2"
+            
           >
-            <center>
-              <Col class="skillsContainer text-center" md={4} xs={10}>
-                <Card style={{ height: "3rem" }}>
-                  <Card.Body>
-                    <Card.Subtitle className="mb-2 text-muted">
+            <center  >
+              <Col onClick={() => 
+              window.location = 'mailto:geoshanallen@gmail.com'} class="skillsContainer text-center  " md={4} xs={10}>
+                <Card className="hover-effect-click "  style={{ height: "3rem" }}>
+                  <Card.Body   >
+                    <Card.Subtitle  className="mb-2 ">
                       <span class="material-symbols-outlined mat-icon-center">
                         stacked_email
                       </span>
@@ -40,13 +50,12 @@ export default function AboutMe() {
               </Col>
             </center>
           </Row>
-          <br></br>
-          <Row>
+          <Row className="mt-2">
             <center>
-              <Col class="skillsContainer text-center" md={4} xs={10}>
-                <Card style={{ height: "3rem" }}>
+              <Col class="skillsContainer text-center " md={4} xs={10}>
+                <Card className="hover-effect-click " style={{ height: "3rem" }}>
                   <Card.Body>
-                    <Card.Subtitle className="mb-2 text-muted">
+                    <Card.Subtitle className="mb-2 ">
                       <span class="material-symbols-outlined mat-icon-center">
                         call
                       </span>
@@ -57,13 +66,12 @@ export default function AboutMe() {
               </Col>
             </center>
           </Row>
-          <br></br>
-          <Row>
+          <Row className="mt-2">
             <center>
               <Col class="skillsContainer text-center" md={4} xs={10}>
-                <Card style={{ height: "3rem" }}>
+                <Card  className="hover-effect-click "  style={{ height: "3rem" }}>
                   <Card.Body>
-                    <Card.Subtitle className="mb-2 text-muted">
+                    <Card.Subtitle className="mb-2 text-Grey">
                       <span class="material-symbols-outlined mat-icon-center">
                         location_on
                       </span>
@@ -74,17 +82,16 @@ export default function AboutMe() {
               </Col>
             </center>
           </Row>
-          <br></br>
-          <Row
+          <Row className="mt-2"
             onClick={() => {
               window.open(linkedInURL);
             }}
           >
             <center>
               <Col class="skillsContainer text-center" md={4} xs={10}>
-                <Card style={{ height: "3rem" }}>
+                <Card className="hover-effect-click "  style={{ height: "3rem" }}>
                   <Card.Body>
-                    <Card.Subtitle className="mb-2 text-muted">
+                    <Card.Subtitle className="mb-2 text-Grey">
                       <span class="material-symbols-outlined mat-icon-center">
                         link
                       </span>
@@ -95,17 +102,17 @@ export default function AboutMe() {
               </Col>
             </center>
           </Row>
-          <br></br>
-          <Row
+          
+          <Row className="mt-2"
             onClick={() => {
               window.open(githubURL);
             }}
           >
             <center>
               <Col class="skillsContainer text-center" md={4} xs={10}>
-                <Card style={{ height: "3rem" }}>
+                <Card className="hover-effect-click "  style={{ height: "3rem" }}>
                   <Card.Body>
-                    <Card.Subtitle className="mb-2 text-muted">
+                    <Card.Subtitle className="mb-2 text-Grey">
                       <span class="material-symbols-outlined mat-icon-center">
                         link
                       </span>
@@ -116,6 +123,8 @@ export default function AboutMe() {
               </Col>
             </center>
           </Row>
+         
+          
         </Container>
       </div>
     </div>

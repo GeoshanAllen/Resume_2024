@@ -81,3 +81,24 @@ html, body, #root {
     transform: rotate(360deg);
   }
 }
+
+.hover-effect-click
+{
+  font-size: 18px;
+  color:rgb(108, 105, 105) !important ;
+  cursor: pointer;   
+  border-width: 2px !important;
+}
+
+.hover-effect-click:hover
+{
+  background-color: #4444bb;
+  font-size: 18px;
+  color:rgb(255, 255, 255) !important ;
+  cursor: pointer;   
+}
+
+.text-Grey
+{
+color: #595c65 ;
+}

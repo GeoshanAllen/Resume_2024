@@ -71,3 +71,12 @@ body{
     margin: 0 auto;
     display: block;
 }
+
+.logo-AboutMe{
+    width: 50%;
+    height: 50%;
+    max-height: 200px;
+    max-width: 210px;
+    margin: 0 auto;
+    display: block;
+}
