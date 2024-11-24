@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import NavbarResume from "./components/Navbar";
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
-
+import Experience from "./components/Experience";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -16,8 +16,9 @@ function App() {
       <NavbarResume></NavbarResume>
       {/* <Router> */}
         <Routes>
-          <Route path ="/Skills" element ={<Skills></Skills>} ></Route>
           <Route path ="/Home" element ={<Home></Home>} ></Route>
+          <Route path ="/Skills" element ={<Skills></Skills>} ></Route>
+          <Route path ="/Experience" element ={<Experience></Experience>} ></Route>          
           <Route path ="/AboutMe" element ={<AboutMe></AboutMe>} ></Route>
         </Routes>
       {/* </Router> */}
