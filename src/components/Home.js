@@ -17,7 +17,7 @@ export default function Home() {
       <h2 className="app-subtitle">SDET</h2>
       <div>
         <span className="para">
-          Automation Tester with a pragmatic approach, leveraged on nuances,
+          SDET with a pragmatic approach, leveraged on nuances,
           with gifted presentation skills.
         </span>
         <br></br>

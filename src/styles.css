@@ -80,3 +80,14 @@ body{
     margin: 0 auto;
     display: block;
 }
+
+.tab-content{
+    text-align: left !important;
+    font-size: 14px !important;
+}
+
+.experience-overview{
+    text-align: left !important;
+    font-size: 15px !important;
+}
+
