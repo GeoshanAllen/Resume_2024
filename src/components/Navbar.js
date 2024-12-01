@@ -13,7 +13,7 @@ export default function NavbarResume() {
       <Container fluid="md">
         <Row md>
           <Navbar expand="lg" sticky="top" className="bg-body-tertiary  " collapseOnSelect>
-            <Col className="ms-auto" lg="1">
+            <Col className="ms-3" ms="4" lg="1">
               <Navbar.Brand href="/Home">
                 <img
                   src="../Resume_2024/AllenLogo.png"

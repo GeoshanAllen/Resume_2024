@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 
 export default function Home() {
   return (
-    <div className="header mt-5">
+    <div className="header mt-2">
       <img
         className="logo"
         src="../Resume_2024/Allen_Resume_Black.png"

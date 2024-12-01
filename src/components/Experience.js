@@ -12,9 +12,7 @@ export default function Experience() {
       <div className="skills">
         <Container fluid class="bg-dark text-white">
           <h4 class="bg-dark text-white">
-            <span class="material-symbols-outlined mat-icon-center">
-            work
-            </span>
+            <span class="material-symbols-outlined mat-icon-center">work</span>
             &nbsp;Experience
           </h4>
         </Container>
@@ -55,19 +53,19 @@ export default function Experience() {
           >
             <Tab
               eventKey="SCB"
-              title="Standard Chartered GBS (Jan 2022 - Present)"
+              title="Standard Chartered GBS (Jan22 - Present)"
             >
               <TabContent className="tab-content ms-2 mt-3">
-               <h6>
+                <h6>
                   <img
                     style={{ width: 40, height: 50 }}
                     src="../Resume_2024/SCB_Logo.png"
                     alt="SCB_LOGO"
                   />
-                  <span> Test Manager - Standard Chartered GBS</span>
+                  <span>  Standard Chartered GBS - Test Manager</span>
                 </h6>
-
-                - Sole Automation Test Manager for GPBS+ System Automation
+                - Sole Automation Test Manager for Global Pricing and Billing
+                System
                 <br />
                 - Automated more than 600+ Test Cases using Genie framework
                 (Cucumber BDD + JUnit)
@@ -110,18 +108,18 @@ export default function Experience() {
                 <br />
               </TabContent>
             </Tab>
-            <Tab eventKey="MS" title="Maveric Systems (Jan 2022 - Present)">
-            <TabContent className="tab-content ms-2 mt-3">
-               <h6>
+            <Tab eventKey="MS" title="Maveric Systems (Dec21 - Jan22)">
+              <TabContent className="tab-content ms-2 mt-3">
+                <h6>
                   <img
                     style={{ width: 110, height: 55 }}
                     src="../Resume_2024/Maveric_Systems_Logo.png"
                     alt="SCB_LOGO"
                   />
-                  <span> Principal Software Engineer - Maveric Systems</span>
+                  <span>Maveric Systems - Principal Software Engineer</span>
                 </h6>
-
-                - Sole Automation Test Manager for GPBS+ System Automation
+                - Sole Automation Test Manager for Global Pricing and Billing
+                System
                 <br />
                 - Automated more than 600+ Test Cases using Genie framework
                 (Cucumber BDD + JUnit)
@@ -164,11 +162,51 @@ export default function Experience() {
                 <br />
               </TabContent>
             </Tab>
-            <Tab eventKey="CG" title="Capgemini">
-              Capgemini
+            <Tab eventKey="CG" title="Capgemini (Jul15 - Mar18)">
+              <TabContent className="tab-content ms-2 mt-3">
+              <h6>
+                  <img
+                    style={{ width: 40, height: 35 }}
+                    src="../Resume_2024/CG_Logo2.png"
+                    alt="Capgemini_Logo"
+                  />
+                  <span> &nbsp;Capgemini - Consultant</span>
+                </h6>
+
+                - Involved in test planning, automation test case generation and test data preparation. <br />
+- Automated 600+ UI test scenarios using Cucumber JUnit Framework.<br />
+- Reviewed and Documented test scripts and test suites.<br />
+- Automated API Test scenarios using REST Assured framework (created Macros for automated Test Data).<br />
+- Part of Agile team and maintained task completion on time with proactive on time reporting of blockers/issues.<br />
+- Automation test script enhancements on change requests from client.<br />
+- Performed Defect Tracking and provided client demo using automation scripts.<br />
+- Was also involved in the requirements gathering phase for a Change Request in Guardian.<br />
+- Also contributed towards creating insurance functional knowledge documents for COE DTG portal.<br />
+- Contributed towards creating common methods and framework development.<br />
+- Part of the code maintenance and standards team and responsible for code conflicts resolution in TFS.<br />
+- Was involved in trainings and presentations and represented the team for Agile ceremonies.<br />
+              </TabContent>
             </Tab>
-            <Tab eventKey="ACT" title="Accenture">  
-              Accenture
+            <Tab eventKey="ACT" title="Accenture (Jun11 - May13)">
+            <TabContent className="tab-content ms-2 mt-3">
+            <h6>
+                  <img
+                    style={{ width: 30, height: 30 }}
+                    src="../Resume_2024/Act_Logo.png"
+                    alt="Accenture_Logo"
+                  />
+                  <span> &nbsp; Accenture Services Pvt Ltd - Software Engineer</span>
+                </h6>
+            - Involved in Automation framework design and maintenance using Selenium, POM, TestNG and Maven. <br/>
+- Was involved in creating and maintaining source code in GIT repository. <br/>
+- Created reusable methods for Hybrid Framework. <br/>
+- Performed Smoke testing and regression testing and reported defects promptly. <br/>
+- Involved in regular communication with client (regular meetings and demonstrations). <br/>
+- Performed manual Testing (TCER and Test Cases preparation and execution). <br/>
+- Automated High and Medium Priority scenarios and assisted in code and conflict resolutions for team members. <br/>
+- Documented all functionalities for future reference. <br/>
+- Deputised the team on handling day today testing and automation activities. <br/>
+</TabContent>
             </Tab>
           </Tabs>
         </Row>
