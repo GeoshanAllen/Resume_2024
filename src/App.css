@@ -5,7 +5,7 @@
 }
 
 html, body, #root {
-  height: 100%;
+  height: 100% !important;
 }
 
 .App-logo {
@@ -101,4 +101,32 @@ html, body, #root {
 .text-Grey
 {
 color: #595c65 ;
+}
+
+
+.position-fixed
+{
+  position: absolute !important;
+  /* text-align: center; */
+  left: 0 !important;
+  top: 0 !important;
+  /* margin-top: 100vh; */
+  /* right: 0; */
+  height: 30px !important;
+  width: 100% !important;
+  z-index: 10000 !important;
+}
+
+.position-bottom
+{
+  position: absolute !important;
+  /* text-align: center; */
+  left: 0 ;
+  bottom: 0 ;
+  
+  /* margin-top: 100vh; */
+  /* right: 0; */
+  height: 30px !important;
+  width: 100% !important;
+  z-index: 10000 !important;
 }

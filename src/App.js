@@ -11,27 +11,28 @@ import Accolades from "./components/Accolades";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
 function App() {
   return (
     <div className="App">
       {/* <div className="container fluid"> */}
-      <NavbarResume></NavbarResume>
-      {/* <Router> */}
+      <div>
+        <NavbarResume />
+        {/* <Router> */}
         <Routes>
-          <Route path ="/Home" element ={<Home></Home>} ></Route>
-          <Route path ="/Skills" element ={<Skills></Skills>} ></Route>
-          <Route path ="/Experience" element ={<Experience></Experience>} ></Route>          
-          <Route path ="/Education" element ={<Education></Education>} ></Route>     
-          <Route path ="/Accolades" element ={<Accolades></Accolades>} ></Route>   
-          <Route path ="/AboutMe" element ={<AboutMe></AboutMe>} ></Route>
+          <Route path="/Home" element={<Home></Home>}></Route>
+          <Route path="/Skills" element={<Skills></Skills>}></Route>
+          <Route path="/Experience" element={<Experience></Experience>}></Route>
+          <Route path="/Education" element={<Education></Education>}></Route>
+          <Route path="/Accolades" element={<Accolades></Accolades>}></Route>
+          <Route path="/AboutMe" element={<AboutMe></AboutMe>}></Route>
         </Routes>
-      {/* </Router> */}
-      
-      
-      <Footer ></Footer>
-      {/* </div> */}
+        {/* </Router> */}
 
+
+          <Footer />
+
+      </div>
+      {/* </div> */}
     </div>
   );
 }

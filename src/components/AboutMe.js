@@ -9,8 +9,11 @@ export default function AboutMe() {
   let githubURL = "https://github.com/GeoshanAllen";
 
   return (
-    <div>
-      <div className="skills">
+    
+    <div className="mb-5  ">
+      <br></br>
+      <br></br>
+      <div className="skills mt-2">
         <Container fluid class="bg-dark text-white">
           <h4 class="bg-dark text-white">
             <span class="material-symbols-outlined mat-icon-center">
@@ -127,6 +130,9 @@ export default function AboutMe() {
           
         </Container>
       </div>
+      <br></br>
+      <br></br>
+
     </div>
   );
 }

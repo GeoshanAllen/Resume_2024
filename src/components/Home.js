@@ -5,9 +5,13 @@ import Nav from "react-bootstrap/Nav";
 
 export default function Home() {
   return (
-    <div className="header mt-2">
-      <img
-        className="logo"
+    
+    <div className="header">
+      <br></br>
+      <br></br>
+      
+      <img 
+        className="logo  mt-5"
         src="../Resume_2024/Allen_Resume_Black.png"
         alt="allenResume"
       />
@@ -21,11 +25,13 @@ export default function Home() {
           with gifted presentation skills.
         </span>
         <br></br>
-        <span className="para">
+        <span className="para ">
           Always eager to explore new contributions in the field of Automation
           Testing and Application Design.
         </span>
       </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }

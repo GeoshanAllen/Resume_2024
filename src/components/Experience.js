@@ -8,8 +8,10 @@ import TabContent from "react-bootstrap/TabContent";
 
 export default function Experience() {
   return (
-    <div>
-      <div className="skills">
+    <div className="mb-5  ">
+      <br></br>
+      <br></br>
+      <div className="skills mt-2">
         <Container fluid class="bg-dark text-white">
           <h4 class="bg-dark text-white">
             <span class="material-symbols-outlined mat-icon-center">work</span>
@@ -211,6 +213,8 @@ export default function Experience() {
           </Tabs>
         </Row>
       </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }

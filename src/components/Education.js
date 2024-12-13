@@ -10,9 +10,11 @@ import Card from "react-bootstrap/Card";
 
 export default function Education() {
   return (
-    <div>
-      <div className="skills">
-        <Container fluid class="bg-dark text-white">
+    <div className="mb-5  ">
+      <br></br>
+      <br></br>
+      <div className="skills mt-2">
+        <Container fluid  class="bg-dark text-white">
           <h4 class="bg-dark text-white">
             <span class="material-symbols-outlined mat-icon-center">
               article
@@ -90,6 +92,8 @@ export default function Education() {
         </Container>
         </center>
       </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }
