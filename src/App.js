@@ -7,8 +7,10 @@ import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Accolades from "./components/Accolades";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path ="/Skills" element ={<Skills></Skills>} ></Route>
           <Route path ="/Experience" element ={<Experience></Experience>} ></Route>          
           <Route path ="/Education" element ={<Education></Education>} ></Route>     
+          <Route path ="/Accolades" element ={<Accolades></Accolades>} ></Route>   
           <Route path ="/AboutMe" element ={<AboutMe></AboutMe>} ></Route>
         </Routes>
       {/* </Router> */}
