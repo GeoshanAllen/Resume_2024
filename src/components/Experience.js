@@ -11,17 +11,17 @@ export default function Experience() {
     <div className="mb-5  ">
       <br></br>
       <br></br>
-      <div className="skills mt-2">
-        <Container fluid class="bg-dark text-white">
-          <h4 class="bg-dark text-white">
+      <div className="skills mt-2" >
+        <Container fluid class="header-bg text-white" style={{ position: "fixed",  zIndex:"100000"}}>
+          <h4 class="header-bg text-white" style={{border:"3px solid black"}}>
             <span class="material-symbols-outlined mat-icon-center">work</span>
             &nbsp;Experience
           </h4>
         </Container>
 
-        <div>
-          <Row className="mt-2 experience-overview">
-            <center>
+        <div >
+          <Row className=" experience-overview">
+            <center className="mt-5">
               <Col></Col>
               <Col xs={11}>
                 <div>

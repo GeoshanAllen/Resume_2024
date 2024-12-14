@@ -15,7 +15,7 @@ export default function NavbarResume() {
           <Navbar sticky="top"  expand="lg" className="bg-body-tertiary " collapseOnSelect>
             <Col ms-auto lg="1"></Col>
             <Col  lg="1">
-              <Navbar.Brand href="/Home">
+              <Navbar.Brand href="/Resume_2024/#/Home">
                 <img
                   src="../Resume_2024/AllenLogo.png"
                   alt="Logo"

@@ -6,7 +6,7 @@ export default function Footer(){
     const currentYear =new Date().getFullYear();
     return (
 
-        <div className=" bg-dark bottom-0 " style={{ position: "fixed", width:"100%"}}   >
+        <div className=" bg-dark bottom-0 " style={{ position: "fixed", width:"100%", zIndex:"100000"}}   >
             <p className='footer-text'>
             © {currentYear}&nbsp;
              GeoshanAllen. All rights reserved.

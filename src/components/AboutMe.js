@@ -14,8 +14,8 @@ export default function AboutMe() {
       <br></br>
       <br></br>
       <div className="skills mt-2">
-        <Container fluid class="header-bgm text-white" style={{ position: "fixed"}}>
-          <h4 class="header-bgm text-white">
+        <Container fluid class="header-bg text-white" style={{ position: "fixed",  zIndex:"100000"}}>
+          <h4 class="header-bg text-white" style={{border:"3px solid black"}}>
             <span class="material-symbols-outlined mat-icon-center">
               account_circle
             </span>

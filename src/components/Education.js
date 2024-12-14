@@ -14,8 +14,8 @@ export default function Education() {
       <br></br>
       <br></br>
       <div className="skills mt-2">
-        <Container fluid  class="bg-dark text-white">
-          <h4 class="bg-dark text-white">
+        <Container fluid  class="header-bg text-white" style={{ position: "fixed",  zIndex:"100000"}}>
+          <h4 class="header-bg text-white" style={{border:"3px solid black"}}>
             <span class="material-symbols-outlined mat-icon-center">
               article
             </span>
@@ -23,7 +23,7 @@ export default function Education() {
           </h4>
         </Container>
         <br></br>
-        <center>
+        <center className="mt-3">
         <Container fluid>
           <Row>
           <Col>

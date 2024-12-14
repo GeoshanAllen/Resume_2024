@@ -3,15 +3,16 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+
 export default function Skills() {
   return (
     <div >
       <br></br>
       <br></br>
       <div className="skills mt-2">
-        <Container fluid class="header-bg text-white" style={{ position: "fixed"}}>
-          <h4 class="header-bg text-white">
-            <span class="material-symbols-outlined mat-icon-center">
+        <Container fluid class="header-bg text-white" style={{ position: "fixed",  zIndex:"100000"}}>
+          <h4 class="header-bg text-white " style={{border:"3px solid black"}}>
+            <span className="material-symbols-outlined mat-icon-center">
               star_rate
             </span> 
             &nbsp;Skills
@@ -19,10 +20,10 @@ export default function Skills() {
         </Container>
         <br></br>
         <Container fluid>
-          <Row>
+          <Row className="mt-3">
             <center>
-              <Col class="skillsContainer text-center" md={4} xs={10}>
-                <Card style={{ height: "3rem" }}>
+              <Col className="skillsContainer text-center" md={4} xs={10}>
+                <Card style={{ height: "3rem", zIndex:"1" }}>
                   <Card.Body>
                     <Card.Subtitle className="mb-2 text-muted">
                       <img
@@ -59,7 +60,7 @@ export default function Skills() {
             </center>
           </Row>
           <br></br>
-          <Row>
+          <Row >
             <center>
               <Col class="skillsContainer text-center" md={4} xs={10}>
                 <Card style={{ height: "3rem" }}>
