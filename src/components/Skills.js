@@ -9,8 +9,8 @@ export default function Skills() {
       <br></br>
       <br></br>
       <div className="skills mt-2">
-        <Container fluid class="bg-dark text-white">
-          <h4 class="bg-dark text-white">
+        <Container fluid class="header-bg text-white" style={{ position: "fixed"}}>
+          <h4 class="header-bg text-white">
             <span class="material-symbols-outlined mat-icon-center">
               star_rate
             </span> 

@@ -14,17 +14,17 @@ export default function AboutMe() {
       <br></br>
       <br></br>
       <div className="skills mt-2">
-        <Container fluid class="bg-dark text-white">
-          <h4 class="bg-dark text-white">
+        <Container fluid class="header-bgm text-white" style={{ position: "fixed"}}>
+          <h4 class="header-bgm text-white">
             <span class="material-symbols-outlined mat-icon-center">
               account_circle
             </span>
             &nbsp;About Me
           </h4>
         </Container>
-        
+        <br></br>
         <Container fluid>
-          <div className="header ">
+          <div className="header mt-3">
       <img
         className="logo-AboutMe"
         src="../Resume_2024/Allen_Resume_Black.png"
