@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume_2024/static/css/main.4fef7d8e.css",
-    "main.js": "/Resume_2024/static/js/main.d4ea5304.js",
+    "main.css": "/Resume_2024/static/css/main.06670a77.css",
+    "main.js": "/Resume_2024/static/js/main.c9bdec63.js",
     "static/js/453.07e6958f.chunk.js": "/Resume_2024/static/js/453.07e6958f.chunk.js",
     "static/media/GuidingStar.jpg": "/Resume_2024/static/media/GuidingStar.465b431b1e032fd170b1.jpg",
     "static/media/Committee.jpg": "/Resume_2024/static/media/Committee.25b72b24819920a0d122.jpg",
@@ -10,12 +10,12 @@
     "static/media/UltraRunner.jpg": "/Resume_2024/static/media/UltraRunner.10bcf14fb55560d56130.jpg",
     "static/media/DigitizationAward.jpg": "/Resume_2024/static/media/DigitizationAward.20eb04dafb181fc2df11.jpg",
     "index.html": "/Resume_2024/index.html",
-    "main.4fef7d8e.css.map": "/Resume_2024/static/css/main.4fef7d8e.css.map",
-    "main.d4ea5304.js.map": "/Resume_2024/static/js/main.d4ea5304.js.map",
+    "main.06670a77.css.map": "/Resume_2024/static/css/main.06670a77.css.map",
+    "main.c9bdec63.js.map": "/Resume_2024/static/js/main.c9bdec63.js.map",
     "453.07e6958f.chunk.js.map": "/Resume_2024/static/js/453.07e6958f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fef7d8e.css",
-    "static/js/main.d4ea5304.js"
+    "static/css/main.06670a77.css",
+    "static/js/main.c9bdec63.js"
   ]
 }
