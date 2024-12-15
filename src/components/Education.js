@@ -23,7 +23,7 @@ export default function Education() {
           </h4>
         </Container>
         <br></br>
-        <center className="mt-3">
+        <center className="mt-4">
         <Container fluid>
           <Row>
           <Col>

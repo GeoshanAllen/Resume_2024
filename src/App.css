@@ -145,3 +145,17 @@ color: #595c65 ;
   width: 100% !important;
   z-index: 1000001 !important;
 }
+
+.progress{
+  /* background-color: #4444bb !important; */
+  border: #4444bb !important;
+  border-width: 1rem !important;
+  -webkit-box-shadow: none;
+  --bs-progress-bar-bg:#4444bb !important;
+  -webkit-box-shadow: inset 0 0 0 2px #4444bb !important;
+  -moz-box-shadow: inset 0 0 0 2px #4444bb !important;
+  box-shadow: inset 0 0 0 2px #4444bb !important;
+  border: none;
+
+
+}

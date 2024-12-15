@@ -8,6 +8,7 @@ import Carousel3 from "../../src/carousal/UltraRunner.jpg";
 import Carousel4 from "../../src/carousal/GuidingStar.jpg";
 import Carousel5 from "../../src/carousal/MavericAward.jpg";
 import Carousel6 from "../../src/carousal/SCBAward.jpg";
+import Carousel0 from "../../src/carousal/EngExcellence.jpg";
 
 export default function Accolades() {
   return (
@@ -32,8 +33,18 @@ export default function Accolades() {
         </Container>
         <br></br>
         <Carousel fade data-bs-theme="dark" className="mt-4">
+        <Carousel.Item>
+            <img src={Carousel0} alt="" style={{ height:"30rem", width: "50rem" }}/>
+            <Carousel.Caption>
+              <center>
+                <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
+                  Standard Chartered: Engineering Excellence Award
+                </h4>
+              </center>
+            </Carousel.Caption>
+          </Carousel.Item>
           <Carousel.Item>
-            <img src={Carousel1} alt="" />
+            <img src={Carousel1} alt="" style={{ height:"30rem", width: "50rem" }}/>
             <Carousel.Caption>
               <center>
                 <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
@@ -43,7 +54,7 @@ export default function Accolades() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Carousel2} alt="" />
+            <img src={Carousel2} alt="" style={{ height:"30rem", width: "50rem" }}/>
             <Carousel.Caption>
               <center>
                 <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
@@ -53,7 +64,7 @@ export default function Accolades() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Carousel3} alt="" />
+            <img src={Carousel3} alt="" style={{ height:"30rem", width: "50rem" }} />
             <Carousel.Caption>
               <center>
                 <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
@@ -63,7 +74,7 @@ export default function Accolades() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Carousel4} alt="" />
+            <img src={Carousel4} alt="" style={{ height:"30rem", width: "50rem" }}/>
             <Carousel.Caption>
               <center>
                 <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
@@ -73,7 +84,7 @@ export default function Accolades() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Carousel5} alt="" />
+            <img src={Carousel5} alt="" style={{ height:"30rem", width: "50rem" }}/>
             <Carousel.Caption>
               <center>
                 <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
@@ -83,7 +94,7 @@ export default function Accolades() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={Carousel6} alt="" />
+            <img src={Carousel6} alt="" style={{ height:"30rem", width: "50rem" }}/>
             <Carousel.Caption>
               <center>
                 <h4 class="bg-dark text-white" style={{ width: "50rem" }}>
