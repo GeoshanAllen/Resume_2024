@@ -159,3 +159,68 @@ color: #595c65 ;
 
 
 }
+
+.progress-orange{
+  border: #da6736 !important;
+  border-width: 1rem !important;
+  -webkit-box-shadow: none;
+  --bs-progress-bar-bg:#da6736 !important;
+  -webkit-box-shadow: inset 0 0 0 2px #da6736 !important;
+  -moz-box-shadow: inset 0 0 0 2px #da6736 !important;
+  box-shadow: inset 0 0 0 2px #da6736 !important;
+  border: none;
+
+
+}
+
+.progress-red{
+  border: #da3636 !important;
+  border-width: 1rem !important;
+  -webkit-box-shadow: none;
+  --bs-progress-bar-bg:#da3636  !important;
+  -webkit-box-shadow: inset 0 0 0 2px #da3636  !important;
+  -moz-box-shadow: inset 0 0 0 2px #da3636  !important;
+  box-shadow: inset 0 0 0 2px #da3636  !important;
+  border: none;
+
+
+}
+
+.progress-liteBlue{
+  border: #1893a8 !important;
+  border-width: 1rem !important;
+  -webkit-box-shadow: none;
+  --bs-progress-bar-bg:#1893a8 !important;
+  -webkit-box-shadow: inset 0 0 0 2px #1893a8  !important;
+  -moz-box-shadow: inset 0 0 0 2px #1893a8  !important;
+  box-shadow: inset 0 0 0 2px #1893a8 !important;
+  border: none;
+
+
+}
+
+.progress-darkBlue{
+  border: #3639da !important;
+  border-width: 1rem !important;
+  -webkit-box-shadow: none;
+  --bs-progress-bar-bg:#3639da !important;
+  -webkit-box-shadow: inset 0 0 0 2px #3639da  !important;
+  -moz-box-shadow: inset 0 0 0 2px #3639da  !important;
+  box-shadow: inset 0 0 0 2px #3639da !important;
+  border: none;
+
+
+}
+
+.progress-green{
+  border: #1b8e3e !important;
+  border-width: 1rem !important;
+  -webkit-box-shadow: none;
+  --bs-progress-bar-bg:#1b8e3e  !important;
+  -webkit-box-shadow: inset 0 0 0 2px #1b8e3e   !important;
+  -moz-box-shadow: inset 0 0 0 2px #1b8e3e  !important;
+  box-shadow: inset 0 0 0 2px #1b8e3e  !important;
+  border: none;
+
+
+}
