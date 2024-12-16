@@ -66,7 +66,7 @@ export default function NavbarResume() {
                     </span>
                     <span class="nav-custom-postion">About Me</span>
                   </Nav.Link>
-                  <Nav.Link href="/Resume_2024/#/test">
+                  <Nav.Link href="https://raw.githubusercontent.com/GeoshanAllen/Resume_2024/refs/heads/master/Output/Allen_Resume_2025.pdf">
                     <span class="material-symbols-outlined mat-icon-center">
                     download
                     </span>
