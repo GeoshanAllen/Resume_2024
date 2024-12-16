@@ -11,7 +11,7 @@ export default function NavbarResume() {
     <div class="position-fixed">
 
       <Container fluid>
-        <Row md>
+        <Row md style={{background: "black"}}>
           <Navbar sticky="top"  expand="lg" className="bg-body-tertiary " collapseOnSelect>
             <Col ms-auto lg="1"></Col>
             <Col  lg="1">
@@ -65,6 +65,12 @@ export default function NavbarResume() {
                       account_circle
                     </span>
                     <span class="nav-custom-postion">About Me</span>
+                  </Nav.Link>
+                  <Nav.Link href="/Resume_2024/#/test">
+                    <span class="material-symbols-outlined mat-icon-center">
+                    download
+                    </span>
+                    <span class="nav-custom-postion">Download</span>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>

@@ -252,3 +252,8 @@ button.nav-link{
   background-color: #3639da !important;
   color: #ffffff !important;
 }
+
+.card-border{
+  border: #1b8e3e !important;
+  border-width: 1rem !important;
+}
