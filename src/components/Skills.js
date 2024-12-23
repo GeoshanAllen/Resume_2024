@@ -9,7 +9,7 @@ import { TbBrandCucumber } from "react-icons/tb";
 import { DiJira, DiMsqlServer } from "react-icons/di";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { VscVscode } from "react-icons/vsc";
-import {SiEclipseide,SiIntellijidea,SiFirebase,SiOracle, SiSpring, SiTypescript, SiApachegroovy, SiSelenium, SiProtractor, SiPostman, SiSwagger } from "react-icons/si";
+import {SiCypress,SiEclipseide,SiIntellijidea,SiFirebase,SiOracle, SiSpring, SiTypescript, SiApachegroovy, SiSelenium, SiProtractor, SiPostman, SiSwagger } from "react-icons/si";
 import { VscAzureDevops } from "react-icons/vsc";
 import { BsSignpostSplitFill } from "react-icons/bs";
 
@@ -141,6 +141,23 @@ export default function Skills() {
                     <div>
                     <SiSelenium style={{ color: "#da3636",  fontSize :"1rem"  }}/>
                       &nbsp;Selenium | v4.27.0<ProgressBar className="mt-1 progress-red" animated  now={95} />  
+                      </div>         
+                    </Card.Subtitle>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </center>
+          </Row>
+          <br></br>
+          <Row>
+            <center>
+              <Col class="skillsContainer text-center" md={4} xs={10}>
+                <Card style={{ height: "4rem" }}>
+                  <Card.Body>
+                    <Card.Subtitle className="mb-2 text-muted">
+                    <div>
+                    <SiCypress style={{ color: "#da3636",  fontSize :"1rem"  }}/>
+                      &nbsp;Cypress | v13.17.0<ProgressBar className="mt-1 progress-red" animated  now={75} />  
                       </div>         
                     </Card.Subtitle>
                   </Card.Body>
