@@ -18,7 +18,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=10000 && react-scripts start",
+    "host": "0.0.0.0",
+"port": "10000",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
